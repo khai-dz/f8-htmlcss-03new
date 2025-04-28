@@ -1106,3 +1106,122 @@ a {
 .blog-item:nth-of-type(3):hover .blog-item__heading::after {
     margin-top: 38px;
 }
+
+.footer {
+    padding: 72px 0 96px;
+    background: #143c3c;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.footer__inner::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(
+        90deg,
+        #143c3c 2.28%,
+        #295a5a 55.65%,
+        rgba(38, 82, 82, 0) 102.06%
+    );
+    display: block;
+    position: absolute;
+    bottom: -45px;
+    right: 0;
+}
+
+.footer__content {
+    width: 37%;
+}
+
+.footer__heading {
+    color: #fff;
+    font-size: 3.2rem;
+    font-weight: 500;
+}
+
+form {
+    width: 354px;
+    margin-top: 25px;
+    margin-bottom: 47px;
+    position: relative;
+}
+
+input {
+    color: #6a8383;
+    font-family: Poppins;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #6a8383;
+    padding-bottom: 36px;
+    width: 100%;
+}
+
+input::placeholder {
+    color: #6a8383;
+}
+
+input:focus {
+    outline: none;
+}
+
+.footer__btn {
+    border: none;
+    background: none;
+    color: #c4c4c4;
+    position: absolute;
+    right: 7px;
+    bottom: 28px;
+}
+
+.footer__social {
+    display: flex;
+    justify-content: flex-start;
+    gap: 22px;
+}
+
+.footer__image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: 1px solid #265252;
+    background-color: transparent;
+}
+
+.footer__image:hover {
+    background-color: #a75325;
+}
+
+.footer__column {
+    width: 39%;
+    display: flex;
+    gap: 50px;
+}
+
+.footer-item__heading {
+    color: #fff;
+    font-family: "Public Sans", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 155%;
+    margin-bottom: 6px;
+}
+
+.footer__link {
+    color: #6a8383;
+    font-family: "Public Sans", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 225%;
+}
